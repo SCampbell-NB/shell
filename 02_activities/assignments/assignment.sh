@@ -67,6 +67,7 @@ rm ./data/processed/user_logs/*ipaddr*
 
 touch ./data/inventory.txt    
 
+{ ls -R ./data/processed/user_logs ; ls -R ./data/processed/event_logs ; ls -R ./data/processed/server_logs ; } > ./data/inventory.txt
 
 
 ###########################################
